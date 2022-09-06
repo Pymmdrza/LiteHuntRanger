@@ -109,4 +109,4 @@ for x in range(start, end):
                     """)
 
     else:
-        print(f"[T:{z}][F:{w}]:[{add}]:[{tran}]", end="\r")
+        print(f"[T:{z}][F:{w}][RICH:{wx}]:[{add}]:[{tran}]", end="\r")
