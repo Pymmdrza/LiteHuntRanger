@@ -5,8 +5,24 @@ from lxml import html
 from hdwallet import HDWallet
 from hdwallet.symbols import LTC as sym
 from rich.console import Console
+import subprocess
+
+try:
+    # ============== Auto Install Package's (Linux) ==================== #
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'hdwallet'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'rich'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'lxml'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'bitcoin'])
+except:
+    # ============= Auto Install Package's (Windows) ================== #
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'hdwallet'])
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'rich'])
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'lxml'])
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'bitcoin'])
+
 
 cl = Console()
+cl.clear()
 
 start = int(input('RANGE START [INTEGER] : '))
 end = int(input('RANGE END [INTEGER] : '))
