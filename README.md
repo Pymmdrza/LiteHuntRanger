@@ -3,6 +3,21 @@ Lite coin Hunting And Crack Private Key With Range Method [LTC]
 
 ---
 
+For Running On Windows:
+```
+python LiteHunt_P2PKH.py
+python LiteHunt_P2WPKH.py
+```
+For Running On Linux:
+```
+python3 LiteHunt_P2PKH.py
+python3 LiteHunt_P2WPKH.py
+```
+
+All Script Useing Subprocess Package and No Need for Running , Install package , [Script Auto install]  
+
+---
+
 Example (INPUT):
 
 
