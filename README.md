@@ -2,6 +2,12 @@
 Lite coin Hunting And Crack Private Key With Range Method [LTC]
 
 ---
+Litecoin Hunting From Rang (Screen Work):
+
+
+![](https://raw.githubusercontent.com/Pymmdrza/LiteHuntRanger/mainx/ltcranger.gif 'Lite coin Hunting And Crack Private Key With Range Method LTC')
+
+---
 
 For Running On Windows:
 ```
