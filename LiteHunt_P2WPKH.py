@@ -8,13 +8,13 @@ from rich.console import Console
 import subprocess
 
 try:
-    # ============== Auto Install Package's (Linux) ==================== #
+    # ============== Auto Install Package's (On Linux) ==================== #
     subprocess.check_call(["python3", '-m', 'pip', 'install', 'hdwallet'])
     subprocess.check_call(["python3", '-m', 'pip', 'install', 'rich'])
     subprocess.check_call(["python3", '-m', 'pip', 'install', 'lxml'])
     subprocess.check_call(["python3", '-m', 'pip', 'install', 'bitcoin'])
 except:
-    # ============= Auto Install Package's (Windows) ================== #
+    # ============= Auto Install Package's (On Windows) ================== #
     subprocess.check_call(["python", '-m', 'pip', 'install', 'hdwallet'])
     subprocess.check_call(["python", '-m', 'pip', 'install', 'rich'])
     subprocess.check_call(["python", '-m', 'pip', 'install', 'lxml'])
