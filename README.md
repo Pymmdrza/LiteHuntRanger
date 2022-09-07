@@ -45,3 +45,22 @@ OUTFile Name : `outltc1-256.txt`
 ---
 
 ![Lite coin Hunting And Crack Private Key With Range Method](https://raw.githubusercontent.com/Pymmdrza/LiteHuntRanger/mainx/litescr1.png 'Lite coin Hunting And Crack Private Key With Range Method')
+
+
+---
+
+For Running Offline Version This Script Just Download [FXLtc.py](https://github.com/Pymmdrza/LiteHuntRanger/blob/mainx/FXLtc.py) + [rich500.txt](https://github.com/Pymmdrza/LiteHuntRanger/blob/mainx/ltc500.txt) 
+
+```
+python FXLtc.py
+```
+Run On Linux: `python3 FXLtc.py`
+
+On Offline Version Update : Title Console Or Terminal Changer [STATUS BAR] 
+
+On Offline Version Update : Hunt And Generated 4 Method Address Type [P2PKH + P2SH + P2WPKH + P2WSH]
+
+Screen From FXLite.py:
+
+![](https://raw.githubusercontent.com/Pymmdrza/LiteHuntRanger/mainx/Fxltc.png 'FXLite Hunting And Crack Private Key On Range Litecoin')
+
