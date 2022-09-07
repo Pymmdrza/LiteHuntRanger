@@ -14,6 +14,8 @@ except:
     subprocess.check_call(["python", '-m', 'pip', 'install', 'rich'])
 
 cl = Console()
+cl.clear()
+cl.print(f"Loaded Rich Wallet Address ...")
 
 filename = 'ltc500.txt'
 with open(filename) as f:
@@ -29,6 +31,10 @@ outp = str(input('INSERT OUTPUT FILE NAME .txt : '))
 cl.clear()
 
 cl.print(f"""
+[green4]╔═╗╦ ╦╔╗╔╔═╗╦═╗[/green4][red3        ] ╔╦╗╔╦╗╔╦╗╦═╗╔═╗╔═╗ ╔═╗╔═╗╔╦╗ [/red3]
+[green1]║ ║║║║║║║║╣ ╠╦╝[/green1][dark_orange3] ║║║║║║ ║║╠╦╝╔═╝╠═╣ ║  ║ ║║║║ [/dark_orange3]
+[green4]╚═╝╚╩╝╝╚╝╚═╝╩╚═[/green4][red3        ] ╩ ╩╩ ╩═╩╝╩╚═╚═╝╩ ╩o╚═╝╚═╝╩ ╩ [/red3]
+[red3]==============================================================[/red3]
 [red][[white]+[/white]] [green1]START INPUT  [/green1]: [/red][white]{start}                       [/white]
 [red][[white]+[/white]] [green1]END INPUT    [/green1]: [/red][white]{end}                         [/white]
 [red][[white]+[/white]] [green1]KEY START    [/green1]: [/red][white]{"%064x" % start}             [/white]
