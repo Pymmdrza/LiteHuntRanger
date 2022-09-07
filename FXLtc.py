@@ -4,6 +4,14 @@ import time
 from rich.console import Console
 from hdwallet import HDWallet
 from hdwallet.symbols import LTC as sym
+import subprocess
+
+try:
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'hdwallet'])
+    subprocess.check_call(["python3", '-m', 'pip', 'install', 'rich'])
+except:
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'hdwallet'])
+    subprocess.check_call(["python", '-m', 'pip', 'install', 'rich'])
 
 cl = Console()
 
