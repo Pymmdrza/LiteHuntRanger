@@ -1,5 +1,5 @@
 
-![](https://img.shields.io/badge/%20Web%20Site-Mmdrza.Com-green/?style=plastic&link=https://mmdrza.com) ![](https://img.shields.io/badge/Telegram-Channel-orange/?style=plastic&link=https://t.me/CryptoAttacker) ![](https://img.shields.io/badge/Telegram-ID%20MrPyMmdrza-red?style=plastic&link=https://t.me/MrPyMmdrza)
+![](https://img.shields.io/badge/%20Web%20Site-Mmdrza.Com-green/?style=plastic&link=https://mmdrza.com) ![](https://img.shields.io/badge/Telegram-Channel-orange/?style=plastic&link=https://t.me/Cryptoixer) ![](https://img.shields.io/badge/Telegram-ID%20MrPyMmdrza-red?style=plastic&link=https://t.me/MrPyMmdrza)
 
 ![Lite Hunt Ranger](https://raw.githubusercontent.com/Pymmdrza/LiteHuntRanger/mainx/litecoinHunterRang%20copy.png)
 
