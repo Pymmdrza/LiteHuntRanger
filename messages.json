@@ -1,0 +1,92 @@
+{
+  "offline_scanner": {
+    "header": "[green4]╔═╗╦ ╦╔╗╔╔═╗╦═╗[/green4][red3        ] ╔╦╗╔╦╗╔╦╗╦═╗╔═╗╔═╗ ╔═╗╔═╗╔╦╗ [/red3]\n[green1]║ ║║║║║║║║╣ ╠╦╝[/green1][dark_orange3] ║║║║║║ ║║╠╦╝╔═╝╠═╣ ║  ║ ║║║║ [/dark_orange3]\n[green4]╚═╝╚╩╝╝╚╝╚═╝╩╚═[/green4][red3        ] ╩ ╩╩ ╩═╩╝╩╚═╚═╝╩ ╩o╚═╝╚═╝╩ ╩ [/red3]\n[red3]==============================================================[/red3]\n[red][[white]+[/white]] [green1]START INPUT  [/green1]: [/red][white]{start}[/white]\n[red][[white]+[/white]] [green1]END INPUT    [/green1]: [/red][white]{end}[/white]\n[red][[white]+[/white]] [green1]KEY START    [/green1]: [/red][white]{start_hex}[/white]\n[red][[white]+[/white]] [green1]KEY END      [/green1]: [/red][white]{end_hex}[/white]\n[red][[white]+[/white]] [green1]TOTAL SCAN   [/green1]: [/red][white]{total}[/white]\n[red][[white]+[/white]] [green1]SPEED SCAN   [/green1]: [/red][white]{speed}[/white]\n[red][[white]+[/white]] [green1]SEARCH FILE  [/green1]: [/red][white]{filename}[/white]\n[red][[white]+[/white]] [green1]OUTPUT FILE  [/green1]: [/red][white]{output}[/white]\n[red][[white]+[/white]] [green1]THREAD       [/green1]: [/red][white]OPTIMIZE[/white]\n[red][[white]+[/white]] [green1]COIN NAME    [/green1]: [/red][white]Litecoin (LTC)[/white]\n[red][[white]+[/white]] [green1]TYPE ADDRESS [/green1]: [/red][white]P2PKH + P2SH + P2WPKH + P2WSH[/white]\n[red][[white]+[/white]] [green1]START PROCESS[/green1]: [/red][white]{current_time}[/white]\n[red3]==============================================================[/red3]",
+    "errors": {
+      "notfound": {
+        "line1": " [gold1]i[/gold1]  [red]File {filename} Not Found![/red]",
+        "line2": " [green1]•[/green1]  [green] Put your {filename} file in the script folder![/green]",
+        "release": " [green1]►[/green1]  [green] Latest Release : [link=https://github.com/Pymmdrza/Rich-Address-Wallet/releases/tag/Litecoin][bold]Latest Litecoin Rich Wallet (Update)[/bold][/link][/green]",
+        "download": " [green1]►[/green1]  [green] Litecoin Rich Address Wallet (Update) : ↓ [link=https://github.com/Pymmdrza/Rich-Address-Wallet/releases/download/Litecoin/Latest_Rich_Litecoin_Addresses.txt.gz]Download Direct[/link][/green]",
+        "rename": " [green1]►[/green1][gold1] After Download File and Extract Text file Rename To : [white]{filename}[/white][/gold1]"
+      },
+      "download": {
+        "failed": "[red]✗[/red] Download failed: {error}",
+        "network_error": "[red]✗[/red] Network error: {error}",
+        "file_error": "[red]✗[/red] File operation error: {error}",
+        "extract_failed": "[red]✗[/red] Failed to extract archive: {error}",
+        "no_txt_found": "[red]✗[/red] No .txt file found in the downloaded archive",
+        "cancelled": "[yellow]Warning[/yellow] Download cancelled by user"
+      }
+    },
+    "messages": {
+      "loading": "[cyan]Litecoin Rich Address Scanner[/cyan]\n[yellow]Loading...[/yellow]",
+      "loaded_addresses": "[green]✓[/green] Loaded {count:,} addresses from {filename}",
+      "file_error": "[red]✗[/red] Error loading {filename}: {error}",
+      "invalid_input": "[red]✗[/red] Invalid input: {error}",
+      "invalid_range": "[red]✗[/red] Start value must be less than end value!",
+      "scanning_start": "\n[yellow]Starting scan from {start:,} to {end:,}...[/yellow]\n",
+      "found_key": "[green]FOUND![/green] Address: [cyan]{address}[/cyan]",
+      "scan_interrupted": "\n\n[yellow]Warning  Scanning interrupted by user[/yellow]",
+      "scan_completed": "\n\n[green]Scan completed![/green]",
+      "stats_header": "[blue]Stats:[/blue]",
+      "stats_scanned": "  • Total scanned: [cyan]{count:,}[/cyan]",
+      "stats_found": "  • Keys found: [green]{count}[/green]",
+      "stats_time": "  • Time elapsed: [yellow]{time:.2f}s[/yellow]",
+      "stats_speed": "  • Average speed: [magenta]{speed:.0f} keys/sec[/magenta]",
+      "fatal_error": "[red]Fatal error: {error}[/red]"
+    },
+    "download": {
+      "prompt_message": "\n[yellow]Question[/yellow] File [cyan]{filename}[/cyan] not found. Do you want to download it?",
+      "prompt_choice": "[green](y/n)[/green]",
+      "starting": "[blue]Download[/blue] Starting download from: [cyan]{url}[/cyan]",
+      "completed": "[green]Success[/green] Download completed successfully!",
+      "extracting": "[blue]Extract[/blue] Extracting archive...",
+      "extract_completed": "[green]Success[/green] Archive extracted successfully!",
+      "txt_found": "[green]✓[/green] Found .txt file: [cyan]{filename}[/cyan]",
+      "renamed": "[green]✓[/green] File renamed to: [cyan]{new_name}[/cyan]",
+      "ready": "[green]Ready[/green] File is ready for scanning!"
+    },
+    "prompts": {
+      "start_input": "START INTEGER : ",
+      "end_input": "END INTEGER : ",
+      "speed_input": "SPEED INTEGER : ",
+      "output_input": "INSERT OUTPUT FILE NAME .txt : ",
+      "download_choice": ": "
+    }
+  },
+  "online_scanner": {
+    "header": "[green4]╔═╗╦ ╦╔╗╔╔═╗╦═╗[/green4][red3        ] ╔╦╗╔╦╗╔╦╗╦═╗╔═╗╔═╗ ╔═╗╔═╗╔╦╗ [/red3]\n[green1]║ ║║║║║║║║╣ ╠╦╝[/green1][dark_orange3] ║║║║║║ ║║╠╦╝╔═╝╠═╣ ║  ║ ║║║║ [/dark_orange3]\n[green4]╚═╝╚╩╝╝╚╝╚═╝╩╚═[/green4][red3        ] ╩ ╩╩ ╩═╩╝╩╚═╚═╝╩ ╩o╚═╝╚═╝╩ ╩ [/red3]\n[red3]==============================================================[/red3]\n[red][[white]+[/white]] [green1]START INPUT  [/green1]: [/red][white]{start:,}[/white]\n[red][[white]+[/white]] [green1]END INPUT    [/green1]: [/red][white]{end:,}[/white]\n[red][[white]+[/white]] [green1]KEY START    [/green1]: [/red][white]{start_hex}[/white]\n[red][[white]+[/white]] [green1]KEY END      [/green1]: [/red][white]{end_hex}[/white]\n[red][[white]+[/white]] [green1]TOTAL SCAN   [/green1]: [/red][white]{total:,}[/white]\n[red][[white]+[/white]] [green1]CHECK DELAY  [/green1]: [/red][white]{delay}ms[/white]\n[red][[white]+[/white]] [green1]OUTPUT FILE  [/green1]: [/red][white]{output}[/white]\n[red][[white]+[/white]] [green1]COIN NAME    [/green1]: [/red][white]Litecoin (LTC)[/white]\n[red][[white]+[/white]] [green1]TYPE ADDRESS [/green1]: [/red][white]P2PKH + P2SH + P2WPKH + P2WSH[/white]\n[red][[white]+[/white]] [green1]CHECK METHOD [/green1]: [/red][white]ONLINE API[/white]\n[red][[white]+[/white]] [green1]START PROCESS[/green1]: [/red][white]{start_time}[/white]\n[red3]==============================================================[/red3]",
+    "messages": {
+      "loading": "[cyan]Litecoin Online Scanner[/cyan]\n[yellow]Initializing...[/yellow]",
+      "invalid_input": "[red]Invalid input: {error}[/red]",
+      "invalid_range": "[red]Start value must be less than end value![/red]",
+      "scan_interrupted": "[yellow]Scanning interrupted by user[/yellow]",
+      "scan_completed": "[green]Online scan completed![/green]",
+      "fatal_error": "[red]Fatal error: {error}[/red]"
+    },
+    "prompts": {
+      "start_input": "START INTEGER : ",
+      "end_input": "END INTEGER : ",
+      "delay_input": "CHECK DELAY (ms) : ",
+      "output_input": "INSERT OUTPUT FILE NAME .txt : "
+    }
+  },
+  "threaded_scanner": {
+    "header": "[green4]╔═╗╦ ╦╔╗╔╔═╗╦═╗[/green4][red3        ] ╔╦╗╔╦╗╔╦╗╦═╗╔═╗╔═╗ ╔═╗╔═╗╔╦╗ [/red3]\n[green1]║ ║║║║║║║║╣ ╠╦╝[/green1][dark_orange3] ║║║║║║ ║║╠╦╝╔═╝╠═╣ ║  ║ ║║║║ [/dark_orange3]\n[green4]╚═╝╚╩╝╝╚╝╚═╝╩╚═[/green4][red3        ] ╩ ╩╩ ╩═╩╝╩╚═╚═╝╩ ╩o╚═╝╚═╝╩ ╩ [/red3]\n[red3]==============================================================[/red3]\n[red][[white]+[/white]] [green1]START INPUT  [/green1]: [/red][white]{start:,}[/white]\n[red][[white]+[/white]] [green1]END INPUT    [/green1]: [/red][white]{end:,}[/white]\n[red][[white]+[/white]] [green1]KEY START    [/green1]: [/red][white]{start_hex}[/white]\n[red][[white]+[/white]] [green1]KEY END      [/green1]: [/red][white]{end_hex}[/white]\n[red][[white]+[/white]] [green1]TOTAL SCAN   [/green1]: [/red][white]{total:,}[/white]\n[red][[white]+[/white]] [green1]CHECK DELAY  [/green1]: [/red][white]{delay}ms[/white]\n[red][[white]+[/white]] [green1]THREAD COUNT [/green1]: [/red][white]{threads}[/white]\n[red][[white]+[/white]] [green1]OUTPUT FILE  [/green1]: [/red][white]{output}[/white]\n[red][[white]+[/white]] [green1]COIN NAME    [/green1]: [/red][white]Litecoin (LTC)[/white]\n[red][[white]+[/white]] [green1]TYPE ADDRESS [/green1]: [/red][white]P2PKH + P2SH + P2WPKH + P2WSH[/white]\n[red][[white]+[/white]] [green1]CHECK METHOD [/green1]: [/red][white]ONLINE API THREADED[/white]\n[red][[white]+[/white]] [green1]START PROCESS[/green1]: [/red][white]{start_time}[/white]\n[red3]==============================================================[/red3]",
+    "messages": {
+      "loading": "[cyan]Litecoin Online Scanner (Threaded)[/cyan]\n[yellow]Initializing...[/yellow]",
+      "invalid_input": "[red]Invalid input: {error}[/red]",
+      "invalid_range": "[red]Start value must be less than end value![/red]",
+      "scan_interrupted": "[yellow]Scanning interrupted by user[/yellow]",
+      "scan_completed": "[green]Online scan completed![/green]",
+      "fatal_error": "[red]Fatal error: {error}[/red]"
+    },
+    "prompts": {
+      "start_input": "START INTEGER : ",
+      "end_input": "END INTEGER : ",
+      "delay_input": "CHECK DELAY (ms) : ",
+      "threads_input": "THREAD COUNT : ",
+      "output_input": "INSERT OUTPUT FILE NAME .txt : "
+    }
+  }
+}
